@@ -8,5 +8,4 @@ RUN pip install -r /opt/flaskapp/testapp/requirements.txt
 
 RUN mkdir /var/log/flaskapp/
 
-ENTRYPOINT ["python"]
 CMD ["python", "/opt/flaskapp/testapp/routes.py"]
